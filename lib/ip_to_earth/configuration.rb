@@ -6,7 +6,7 @@ module IpToEarth
     @base_uri = 'https://iptoearth.expeditedaddons.com'
 
     # Your API Key
-    @api_key = 'TODO: Replace'
+    @api_key = ENV['IPTOEARTH_API_KEY']
 
     # create the getters and setters
     class << self
